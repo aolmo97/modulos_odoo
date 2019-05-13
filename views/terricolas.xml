@@ -1,9 +1,9 @@
 <odoo>
   <data>
     <!-- Arbol -->
-    <record model="ir.ui.view" id="dragon_ball_z.tree_terricolas">
-      <field name="name">dragon_ball_z.terricolas.tree</field>
-      <field name="model">dragon_ball_z.terricolas</field>
+    <record model="ir.ui.view" id="dragonball_z.tree_terricolas">
+      <field name="name">dragonball_z.terricolas.tree</field>
+      <field name="model">dragonball_z.terricolas</field>
       <field name="arch" type="xml">
         <tree>
           <field name="nombre"/>
@@ -14,9 +14,9 @@
       </field>
     </record>
      <!-- Formulario -->
-    <record model="ir.ui.view" id="dragon_ball_z.form_terricolas">
-      <field name="name">dragon_ball_z.terricolas.form</field>
-      <field name="model">dragon_ball_z.terricolas</field>
+    <record model="ir.ui.view" id="dragonball_z.form_terricolas">
+      <field name="name">dragonball_z.terricolas.form</field>
+      <field name="model">dragonball_z.terricolas</field>
       <field name="arch" type="xml">
         <group>
           <field name="nombre"/>
@@ -28,18 +28,18 @@
     </record>
     <!-- actions opening views on models -->
     
-    <record model="ir.actions.act_window" id="dragon_ball_z.action_window_terricolas">
-      <field name="name">dragon_ball_z window</field>
-      <field name="res_model">dragon_ball_z.terricolas</field>
+    <record model="ir.actions.act_window" id="dragonball_z.action_window_terricolas">
+      <field name="name">dragonball_z window</field>
+      <field name="res_model">dragonball_z.terricolas</field>
       <field name="view_mode">tree,form</field>
     </record>
     
 
     <!-- server action to the one above -->
     <!--
-    <record model="ir.actions.server" id="dragon_ball_z.action_server">
-      <field name="name">dragon_ball_z server</field>
-      <field name="model_id" ref="model_dragon_ball_z_dragon_ball_z"/>
+    <record model="ir.actions.server" id="dragonball_z.action_server">
+      <field name="name">dragonball_z server</field>
+      <field name="model_id" ref="model_dragonball_z_dragonball_z"/>
       <field name="code">
         action = {
           "type": "ir.actions.act_window",
@@ -51,18 +51,18 @@
     -->
 
     <!-- Menu principal -->
-    <menuitem name="dragon_ball_z" id="dragon_ball_z.menu_root"/>
+    <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
-    <menuitem name="Terricolas" id="dragon_ball_z.action_window_terricolas" parent="dragon_ball_z.menu_root"/>
+    <menuitem name="Terricolas" id="dragonball_z.action_window_terricolas" parent="dragonball_z.menu_root"/>
     <!--
-    <menuitem name="Menu 2" id="dragon_ball_z.menu_2" parent="dragon_ball_z.menu_root"/>
+    <menuitem name="Menu 2" id="dragonball_z.menu_2" parent="dragonball_z.menu_root"/>
     -->
     <!-- actions -->
     <!--
-    <menuitem name="List" id="dragon_ball_z.menu_1_list" parent="dragon_ball_z.menu_1"
-              action="dragon_ball_z.action_window"/>
-    <menuitem name="Server to list" id="dragon_ball_z" parent="dragon_ball_z.menu_2"
-              action="dragon_ball_z.action_server"/>
+    <menuitem name="List" id="dragonball_z.menu_1_list" parent="dragonball_z.menu_1"
+              action="dragonball_z.action_window"/>
+    <menuitem name="Server to list" id="dragonball_z" parent="dragonball_z.menu_2"
+              action="dragonball_z.action_server"/>
     -->
   </data>
 </odoo>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "dragon_ball_z",
+    'name': "dragonball_z",
 
     'summary': """
         Modulo de Dragon Ball Z""",
