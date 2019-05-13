@@ -8,11 +8,11 @@ class Terricolas(models.Model):
  descripcion=fields.Char(string="Descripcion")
  edad=fields.Integer(string="Edad",required=True)
  fecha_nac=fields.Date(string="Fecha Nacimiento",required=True)
+ hijos=fields.Many2many('dragonball_z.terricolas', 'nombre')
  #casado relacion uno a uno
  #casado=fields.
  #hijos relaciono uno a muchos
  #hijos=fields.One2many('dragonball_z.terricolas', 'nombre')
- hijos=fields.Many2many('dragonball_z.terricolas', 'nombre')
 class Namekiano(models.Model):
  _name = 'dragonball_z.namekiano'
  _rec_name= 'nombre_namekiano'
