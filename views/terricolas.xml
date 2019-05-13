@@ -10,7 +10,6 @@
           <field name="descripcion"/>
           <field name="edad" />
           <field name="fecha_nac" />
-          <field name="hijos" />
         </tree>
       </field>
     </record>
@@ -25,7 +24,6 @@
           <field name="descripcion"/>
           <field name="edad"/>
           <field name="fecha_nac"/>
-          <field name="hijos" />
         </group>
        </form> 
       </field>

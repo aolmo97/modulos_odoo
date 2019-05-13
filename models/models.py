@@ -8,9 +8,9 @@ class Terricolas(models.Model):
  descripcion=fields.Char(string="Descripcion")
  edad=fields.Integer(string="Edad",required=True)
  fecha_nac=fields.Date(string="Fecha Nacimiento",required=True)
- hijos=fields.Many2one('dragonball_z.namekiano',
- 'amigos_terricolas'
- )
+#  hijos=fields.Many2one('dragonball_z.namekiano',
+#  'amigos_terricolas'
+#  )
  #casado relacion uno a uno
  #hijos relaciono uno a muchos
 class Namekiano(models.Model):
@@ -20,7 +20,7 @@ class Namekiano(models.Model):
  descripcion=fields.Char(string="Descripcion")
  edad=fields.Integer(string="Edad",required=True)
  fecha_nac=fields.Date(string="Fecha Nacimiento",required=True)
- amigos_terricolas=fields.One2Many('dragonball_z.terricolas',
- 'nombre')
+#  amigos_terricolas=fields.One2Many('dragonball_z.terricolas',
+#  'nombre')
  #casado relacion uno a uno
  #hijos relaciono uno a muchos 
