@@ -10,6 +10,9 @@
           <field name="descripcion"/>
           <field name="edad"/>
           <field name="fecha_nac"/>
+          <field name="hijos">
+             <field name="nombre"/>
+          </field>
         </tree>
       </field>
     </record>
@@ -24,6 +27,7 @@
           <field name="descripcion"/>
           <field name="edad"/>
           <field name="fecha_nac"/>
+          <field name="hijos"/>
         </group>
        </form> 
       </field>
@@ -35,36 +39,10 @@
       <field name="res_model">dragonball_z.terricolas</field>
       <field name="view_mode">tree,form</field>
     </record>
-    
-
-    <!-- server action to the one above -->
-    <!--
-    <record model="ir.actions.server" id="dragonball_z.action_server">
-      <field name="name">dragonball_z server</field>
-      <field name="model_id" ref="model_dragonball_z_dragonball_z"/>
-      <field name="code">
-        action = {
-          "type": "ir.actions.act_window",
-          "view_mode": "tree,form",
-          "res_model": self._name,
-        }
-      </field>
-    </record>
-    -->
-
     <!-- Menu principal -->
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
     <menuitem name="Terricolas" id="dragonball_z.action_window_terricolas" parent="dragonball_z.menu_root" action="dragonball_z.action_window_terricolas"/>
-    <!--
-    <menuitem name="Menu 2" id="dragonball_z.menu_2" parent="dragonball_z.menu_root"/>
-    -->
-    <!-- actions -->
-    <!--
-    <menuitem name="List" id="dragonball_z.menu_1_list" parent="dragonball_z.menu_1"
-              action="dragonball_z.action_window"/>
-    <menuitem name="Server to list" id="dragonball_z" parent="dragonball_z.menu_2"
-              action="dragonball_z.action_server"/>
-    -->
+
   </data>
 </odoo>
