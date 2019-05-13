@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- Arbol -->
-    <record model="ir.ui.view" id="dragon_ball_z.list_terricolas">
+    <record model="ir.ui.view" id="dragon_ball_z.terricolas_list">
       <field name="name">dragon_ball_z.terricolas.tree</field>
       <field name="model">dragon_ball_z.terricolas</field>
       <field name="arch" type="xml">
