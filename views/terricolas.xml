@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- Arbol -->
-    <record model="ir.ui.view" id="dragon_ball_z.terricolas_list">
+    <record model="ir.ui.view" id="dragon_ball_z.tree_terricolas">
       <field name="name">dragon_ball_z.terricolas.tree</field>
       <field name="model">dragon_ball_z.terricolas</field>
       <field name="arch" type="xml">
@@ -15,7 +15,7 @@
     </record>
      <!-- Formulario -->
     <record model="ir.ui.view" id="dragon_ball_z.form_terricolas">
-      <field name="name">dragon_ball_z form</field>
+      <field name="name">dragon_ball_z.terricolas.form</field>
       <field name="model">dragon_ball_z.terricolas</field>
       <field name="arch" type="xml">
         <group>
