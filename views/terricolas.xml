@@ -33,7 +33,7 @@
     <!-- actions opening views on models -->
     
     <record model="ir.actions.act_window" id="dragonball_z.action_window_terricolas">
-      <field name="name">dragonball_z window</field>
+      <field name="name">Terricolas</field>
       <field name="res_model">dragonball_z.terricolas</field>
       <field name="view_mode">tree,form</field>
     </record>
