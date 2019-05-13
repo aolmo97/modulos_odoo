@@ -11,7 +11,7 @@
           <field name="edad"/>
           <field name="fecha_nac"/>
           <field name="hijos">
-             <field name="nombre"/>
+             <field name="nombre_namekiano"/>
           </field>
         </tree>
       </field>

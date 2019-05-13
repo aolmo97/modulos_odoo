@@ -1,0 +1,45 @@
+<odoo>
+  <data>
+    <!-- Arbol -->
+    <record model="ir.ui.view" id="dragonball_z.tree_namekiano">
+      <field name="name">dragonball_z.namekiano.tree</field>
+      <field name="model">dragonball_z.namekiano</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="nombre_namekiano"/>
+          <field name="descripcion"/>
+          <field name="edad"/>
+          <field name="fecha_nac"/>
+        </tree>
+      </field>
+    </record>
+     <!-- Formulario -->
+    <record model="ir.ui.view" id="dragonball_z.form_namekiano">
+      <field name="name">dragonball_z.namekiano.form</field>
+      <field name="model">dragonball_z.namekiano</field>
+      <field name="arch" type="xml">
+      <form>
+        <group>
+          <field name="nombre_namekiano"/>
+          <field name="descripcion"/>
+          <field name="edad"/>
+          <field name="fecha_nac"/>
+         
+        </group>
+       </form> 
+      </field>
+    </record>
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="dragonball_z.action_window_namekiano">
+      <field name="name">dragonball_z window</field>
+      <field name="res_model">dragonball_z.namekiano</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- Menu principal -->
+    <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="namekiano" id="dragonball_z.action_window_namekiano" parent="dragonball_z.menu_root" action="dragonball_z.action_window_namekiano"/>
+
+  </data>
+</odoo>
