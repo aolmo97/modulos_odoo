@@ -7,9 +7,9 @@
       <field name="arch" type="xml">
         <tree>
           <field name="nombre_namekiano"/>
-          <field name="descripcion"/>
-          <field name="edad"/>
-          <field name="fecha_nac"/>
+          <field name="descripcion_namekiano"/>
+          <field name="edad_namekiano"/>
+          <field name="fecha_nac_namekiano"/>
         </tree>
       </field>
     </record>
@@ -21,9 +21,9 @@
       <form>
         <group>
           <field name="nombre_namekiano"/>
-          <field name="descripcion"/>
-          <field name="edad"/>
-          <field name="fecha_nac"/>
+          <field name="descripcion_namekiano"/>
+          <field name="edad_namekiano"/>
+          <field name="fecha_nac_namekiano"/>
          
         </group>
        </form> 
