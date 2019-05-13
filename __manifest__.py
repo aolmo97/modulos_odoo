@@ -3,20 +3,19 @@
     'name': "dragon_ball_z",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Modulo de Dragon Ball Z""",
 
     'description': """
-        Long description of module's purpose
+        Modulo de Dragon Ball Z
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Antonio Olmo Lopez",
+    'website': "https://www.a2mkt.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Ciencia ficcion',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -25,7 +24,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/terricolas.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
