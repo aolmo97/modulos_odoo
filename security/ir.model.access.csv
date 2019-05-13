@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dragon_ball_z_dragon_ball_z,dragon_ball_z.dragon_ball_z,model_dragon_ball_z_dragon_ball_z,,1,0,0,0
