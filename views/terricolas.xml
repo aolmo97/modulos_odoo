@@ -10,9 +10,7 @@
           <field name="descripcion"/>
           <field name="edad"/>
           <field name="fecha_nac"/>
-          <field name="hijos">
-             <field name="nombre_namekiano"/>
-          </field>
+          <field name="hijos"/>
         </tree>
       </field>
     </record>
