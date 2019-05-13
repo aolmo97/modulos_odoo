@@ -26,6 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/terricolas.xml',
         'views/namekiano.xml',
+        'views/dios.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
