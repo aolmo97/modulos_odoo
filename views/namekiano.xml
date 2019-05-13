@@ -24,7 +24,6 @@
           <field name="descripcion_namekiano"/>
           <field name="edad_namekiano"/>
           <field name="fecha_nac_namekiano"/>
-         
         </group>
        </form> 
       </field>
