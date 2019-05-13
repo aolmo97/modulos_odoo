@@ -31,7 +31,7 @@
     </record>
     <!-- actions opening views on models -->
     
-    <record model="ir.actions.act_window" id="dragonball_z.action_window_namekiano">
+    <record model="ir.actions.act_window" id="dragonball_z.action_window_namekianos">
       <field name="name">Namekianos</field>
       <field name="res_model">dragonball_z.namekiano</field>
       <field name="view_mode">tree,form</field>
@@ -39,7 +39,7 @@
     <!-- Menu principal -->
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
-    <menuitem name="namekiano" id="dragonball_z.namekiano_list" parent="dragonball_z.menu_root" action="dragonball_z.action_window_namekiano"/>
+    <menuitem name="Namekianos" id="dragonball_z.namekiano_list" parent="dragonball_z.menu_root" action="dragonball_z.action_window_namekianos"/>
 
   </data>
 </odoo>
