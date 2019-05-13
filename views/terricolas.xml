@@ -55,7 +55,7 @@
     <!-- Menu principal -->
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
-    <menuitem name="Terricolas" id="dragonball_z.action_window_terricolas" parent="dragonball_z.menu_root"/>
+    <menuitem name="Terricolas" id="dragonball_z.action_window_terricolas" parent="dragonball_z.menu_root" action="dragonball_z.action_window_terricolas"/>
     <!--
     <menuitem name="Menu 2" id="dragonball_z.menu_2" parent="dragonball_z.menu_root"/>
     -->
