@@ -27,6 +27,7 @@
         'views/terricolas.xml',
         'views/namekiano.xml',
         'views/dios.xml',
+        'reportes/informes_terricolas.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
