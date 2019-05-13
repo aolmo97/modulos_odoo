@@ -18,12 +18,14 @@
       <field name="name">dragonball_z.terricolas.form</field>
       <field name="model">dragonball_z.terricolas</field>
       <field name="arch" type="xml">
+      <form>
         <group>
           <field name="nombre"/>
           <field name="descripcion"/>
           <field name="edad"/>
           <field name="fecha_nac"/>
         </group>
+       </form> 
       </field>
     </record>
     <!-- actions opening views on models -->
