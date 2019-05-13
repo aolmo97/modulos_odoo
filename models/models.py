@@ -8,8 +8,8 @@ class Terricolas(models.Model):
  descripcion=fields.Char(string="Descripcion")
  edad=fields.Integer(string="Edad",required=True)
  fecha_nac=fields.Date(string="Fecha Nacimiento",required=True)
- hijos=fields.Many2one('dragonball_z.terricolas',
- 'nombre'
+ hijos=fields.Many2one('dragonball_z.namekiano',
+ 'nombre_namekiano'
  )
  #casado relacion uno a uno
  #hijos relaciono uno a muchos
