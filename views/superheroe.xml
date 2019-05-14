@@ -39,6 +39,11 @@
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
     <menuitem name="superheroes" id="dragonball_z.superheroe_list" parent="dragonball_z.menu_root" action="dragonball_z.action_window_superheroes"/>
-
+    <report id="dragonball_z.superheroes_report"
+            model="dragonball_z.superheroe"
+            name="dragonball_z.superheroes_report_template"
+            file="dragonball_z.superheroes_report_template"
+            string="Listado superheroes"
+            report_type="qweb-pdf"/>
   </data>
 </odoo>
