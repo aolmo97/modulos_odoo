@@ -30,15 +30,15 @@
     </record>
     <!-- actions opening views on models -->
     
-    <record model="ir.actions.act_window" id="dragonball_z.action_window_dios">
-      <field name="name">dios</field>
+    <record model="ir.actions.act_window" id="dragonball_z.action_window_dios2">
+      <field name="name">Dioses</field>
       <field name="res_model">dragonball_z.dios</field>
       <field name="view_mode">tree,form</field>
     </record>
     <!-- Menu principal -->
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
-    <menuitem name="dios" id="dragonball_z.action_window_dios" parent="dragonball_z.menu_root" action="dragonball_z.action_window_dios"/>
+    <menuitem name="dios" id="dragonball_z.action_window_dios2" parent="dragonball_z.menu_root" action="dragonball_z.action_window_dios2"/>
 
   </data>
 </odoo>
