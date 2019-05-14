@@ -26,9 +26,11 @@
         # 'security/ir.model.access.csv',
         'views/terricolas.xml',
         'views/namekiano.xml',
+        'views/superheroe.xml',
         'views/dios.xml',
         'reportes/informes_terricolas.xml',
         'reportes/informes_dios.xml',
+        'reportes/informes_superheroe.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="dragonball_z.terricolas_report_template">
+        <t t-call="report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <div class="page">
+                    <h1 t-field="o.nombre" />
+                        <table border='1' class="table table-bordered mt32">
+                        <tr>
+                            <th class="text-center">Nombre</th>
+                            <th class="text-center">Descripcion</th>
+                            <th class="text-center">Edad</th>
+                            <th class="text-center">Fecha Nac</th>
+                            <th class="text-center">Hijo de </th>
+                        </tr>
+                         <tr class="text-center" >   
+                                <td> <span t-field="o.nombre_superheroe"/></td>
+                                <td> <span t-field="o.descripcion_superheroe"/></td>
+                                <td><span t-field="o.edad_superheroe"/></td>
+                                <td><span t-field="o.fecha_nac_superheroe"/></td>
+                                
+                            </tr>
+                        </table>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>
