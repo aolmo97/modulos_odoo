@@ -20,13 +20,13 @@ class Namekiano(models.Model):
  descripcion_namekiano=fields.Char(string="Descripcion")
  edad_namekiano=fields.Integer(string="Edad",required=True)
  fecha_nac_namekiano=fields.Date(string="Fecha Nacimiento",required=True)
-class Dios(models.Model):
- _name = 'dragonball_z.dios'
- _rec_name= 'nombre_dios'
- nombre_dios = fields.Char(string="Nombre",required=True)
- edad_dios=fields.Integer(string="Edad",required=True)
- tipo_dios=fields.Selection([('Luz','Luz'),('Oscuridad','Oscuridad'),('Sol','Sol')])
- inmortal=fields.Boolean(string="¿Inmortal?")
+# class Dios(models.Model):
+#  _name = 'dragonball_z.dios'
+#  _rec_name= 'nombre_dios'
+#  nombre_dios = fields.Char(string="Nombre",required=True)
+#  edad_dios=fields.Integer(string="Edad",required=True)
+#  tipo_dios=fields.Selection([('Luz','Luz'),('Oscuridad','Oscuridad'),('Sol','Sol')])
+#  inmortal=fields.Boolean(string="¿Inmortal?")
 #  amigos_terricolas=fields.One2Many('dragonball_z.terricolas',
 #  'nombre')
  #casado relacion uno a uno
