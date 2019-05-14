@@ -43,7 +43,6 @@
     <menuitem name="dragonball_z" id="dragonball_z.menu_root"/>
     <!-- menu categories -->
     <menuitem name="Terricolas" id="dragonball_z.action_window_terricolas" parent="dragonball_z.menu_root" action="dragonball_z.action_window_terricolas"/>
-    <report id="report_terricolas" model="dragonball_z.terricolas" string="Listado de Terricolas" 
-    report_type="qweb-pdf"/>
+   
   </data>
 </odoo>
